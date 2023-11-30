@@ -1,0 +1,8 @@
+../Core/Src/Gmbl_drvr.c:13:6:gimbal_init	1
+../Core/Src/Gmbl_drvr.c:47:6:gimbal_enable	1
+../Core/Src/Gmbl_drvr.c:54:6:gimbal_disable	1
+../Core/Src/Gmbl_drvr.c:60:6:gimbal_set_duty_cycle	5
+../Core/Src/Gmbl_drvr.c:81:6:gimbal1	1
+../Core/Src/Gmbl_drvr.c:84:6:gimbal2	1
+../Core/Src/Gmbl_drvr.c:87:6:gimbal3	1
+../Core/Src/Gmbl_drvr.c:91:13:gimbal_pin_configure	1
