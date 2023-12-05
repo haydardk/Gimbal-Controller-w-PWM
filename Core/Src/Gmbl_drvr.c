@@ -15,7 +15,7 @@ void gimbal_init(void)
 	gimbal_pin_configure();
 
 	TIM2->PSC = 8000-1; // Timer clock = 8 Mhz / Arbitrary Choosen
-	TIM2->ARR = 20000-1;  // Frequency 50-(55 ?) Hz ( You can choose 500 Hz if you desire)
+	TIM2->ARR = 20000-1;  // Frequency 50 Hz ( You can choose 500 Hz if you desire)
 	TIM2->CCR1 = 2000;  // Duty Cycle  %5 - %10 ( 1000ms-2000ms)
 	TIM2->CCR2 = 2000;  // Duty Cycle  %5 - %10 ( 1000ms-2000ms)
 	TIM2->CCR3 = 2000;  // Duty Cycle  %5 - %10 ( 1000ms-2000ms)
